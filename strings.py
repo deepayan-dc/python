@@ -8,4 +8,4 @@ print(len(str)) #8
 print(str[0]) #D
 print(str[1]) #e
 print(str.index("p")) #2
-print(str.replace("D", "J")) #Jeepayan
+print(str.replace("D", "J")) #Jeepayan 
