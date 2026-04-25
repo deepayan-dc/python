@@ -1,8 +1,11 @@
 def translate (string):
     translation = ""
     for letter in string:
-        if letter in "AEIOUaeiou":
-            translation = translation + "d"
+        if letter.lower() in "aeiou":
+            if letter.isupper():
+                translation = translation + "D"
+            else:
+                translation = translation + "d"
         else:
             translation = translation + letter
     return translation
