@@ -36,3 +36,16 @@ nums = numbers.copy() # create a copy of the list
 print(nums)
 nums.clear() # remove all elements from the list
 print(nums)
+
+grid = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [0]
+]
+print(grid)
+print(grid[0][2]) # access the element at row 0, column 3
+
+for row in grid:
+    for col in row:
+        print(col)
